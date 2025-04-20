@@ -1,0 +1,12 @@
+[project]
+name = "fib-gen"
+version = "0.1.0"
+description = "Fibbonacci number generator based on Kevlin Henney's talk https://www.youtube.com/watch?v=0y7IFUYUTgg"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+]
